@@ -7,3 +7,24 @@ Affiliate network is a form of online marketing channel where an intermediary pr
 The company wants to improve their CPC (cost per click) performance. A future insight about an ad performance will give them enough headstart to make changes (if necessary) in their upcoming CPC campaigns.
 
 In this challenge, you have to predict the probability whether an ad will get clicked or not. 
+
+Download Dataset : https://he-s3.s3.amazonaws.com/media/hackathon/machine-learning-challenge-3/predict-ad-clicks/205e1808-6-dataset.zip
+
+
+Data Description
+
+You are given three files to download: train.csv, test.csv and sample_submission.csv Variables in this data set are anonymized due to privacy.
+The training data is given for 10 days ( 10 Jan 2017 to 20 Jan 2017). The test data is given for next 3 days.
+Variable 	Description
+ID 	Unique ID
+datetime 	timestamp
+siteid 	website id
+offerid 	offer id (commission based offers)
+category 	offer category
+merchant 	seller ID
+countrycode 	country where affiliates reach is present
+browserid 	browser used
+devid 	device used
+click 	target variable
+
+
